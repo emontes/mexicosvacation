@@ -16,11 +16,12 @@ export default ({data}) => (
 )
 
 export const qury = graphql`
-query {
-  defaultBcg: contentfulAsset(id: {eq: "b2e190cc-818d-5746-8b96-e7c1d4399376"}) {
+query 
+{
+    defaultBcg: contentfulAsset(id: {}, file: {fileName: {eq: "mazatln_48853787663_o.jpg"}}) {
     title
-    fluid(quality: 90, maxWidth: 4160) {
-        ...GatsbyContentfulFluid_tracedSVG
+    fluid(quality: 90, maxWidth: 2000) {
+      ...GatsbyContentfulFluid_tracedSVG
     }
   }
 }

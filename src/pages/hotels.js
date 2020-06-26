@@ -23,10 +23,11 @@ export default ({data}) => (
 )
 
 export const qury = graphql`
-query {
+query 
+{
   defaultBcg: contentfulAsset(id: {eq: "8a7b2aa5-76fe-537d-9fd4-ea517747cdfe"}) {
     title
-    fluid(quality: 90, maxWidth: 4160) {
+    fluid(quality: 90, maxWidth: 2000) {
       ...GatsbyContentfulFluid_tracedSVG
     }
   }
