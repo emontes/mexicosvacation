@@ -7,7 +7,7 @@ export default ({data}) => (
     
         <Layout>
           <StyledHero img={data.defaultBcg.fluid}>
-            Flights
+            Cars
           </StyledHero>
 
 
@@ -17,7 +17,7 @@ export default ({data}) => (
 
 export const qury = graphql`
 query {
-  defaultBcg: contentfulAsset(id: {eq: "3c8f8cc5-350c-51bd-b7d7-d3c887149f49"}) {
+  defaultBcg: contentfulAsset(id: {eq: "b2e190cc-818d-5746-8b96-e7c1d4399376"}) {
     title
     fluid(quality: 90, maxWidth: 4160) {
         ...GatsbyContentfulFluid_tracedSVG
