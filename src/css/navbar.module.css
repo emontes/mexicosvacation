@@ -27,6 +27,10 @@
   .show-nav {
     height: 216px;
   }
+  .activa {
+    
+    color: var(--primaryColor) !important;
+  }
   .nav-links a {
     display: block;
     padding: 1rem 1.25rem;
