@@ -9,7 +9,11 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.links}>
         {links.map((item, index) => {
-          return <Link key={index} to={item.path}>{item.text}</Link>
+          return (
+            <Link key={index} to={item.path}>
+              {item.text}
+            </Link>
+          )
         })}
       </div>
       <div className={styles.icons}>
@@ -27,9 +31,8 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.copyright}>
-        copyright &copy; Mexico's Vacation by{" "}
-        <a href="https://turista.com.mx">Turista.com.mx</a>{" "}
-        {new Date().getFullYear()} all rights reserved
+        copyright &copy; {new Date().getFullYear()} Mexico's Vacation by{" "}
+        <a href="https://turista.com.mx">Turista.com.mx</a> all rights reserved
       </div>
     </footer>
   )
