@@ -15,7 +15,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
+          <Link to="/">
           <img style={{ width: "302px"}} src={logo} alt="welcome to Mexico's Vacation" />
+          </Link>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>
@@ -33,20 +35,7 @@ const Navbar = () => {
             </li>)
           })}
         </ul>
-        <div className={styles.navSocialLinks}>
-            {socialIcons.map((item, index) => {
-                return (
-                    <a 
-                      key={index}
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                        {item.icon}
-                    </a>
-                )
-            })}
-        </div>
+        
       </div>
     </nav>
   )

@@ -7,7 +7,7 @@ import MapList from '../components/Hotels/MapList'
 import Banner from '../components/Banner'
 
 // valores posibles de v: 1985 2040
-const liga="//www.travelpayouts.com/widgets/6ff66ccd8ff1be19f0a327ce6641a9d4.js?v=2040" 
+const liga="//www.travelpayouts.com/widgets/6ff66ccd8ff1be19f0a327ce6641a9d4.js?v=1985" 
 
 export default ({data}) => (
     

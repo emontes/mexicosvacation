@@ -1,8 +1,5 @@
 export default [
-    {
-        path: "/",
-        text: "home"
-    },
+
     {
         path: "/hotels",
         text: "hotels"
