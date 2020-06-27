@@ -8,7 +8,7 @@ module.exports = {
     description: "This is the place to Find the best deals for your Vacation in Mexico | HOTELS IN MEXICO | FLIGHTS TO MEXICO | CAR RENTALS",
     author: "@turistamexico",
     twitterUsername:"@turistamexico",
-    image:'/defaultBcg.jpeg',
+    image:'/mexicos-vacation.jpg',
     siteUrl: "https://mexicosvacation.com"
   },
   plugins: [
@@ -17,6 +17,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
