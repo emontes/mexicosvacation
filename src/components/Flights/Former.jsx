@@ -29,11 +29,11 @@ export default Former
 const FormerWrapper = styled.section`
   padding: 4rem 0;
   .center {
-  width: 80vw;
-  margin: 3rem auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-}
+    width: 80vw;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
 `
