@@ -13,7 +13,7 @@ export default ({ data }) => (
   <Layout>
     <SEO
       title="Search Flights"
-      description="We search hundreds of travel sites at once to find the cheapest flights and best hotel deals for you."
+      description="We search hundreds of travel sites at once to find the cheapest flights to and from Mexico."
       slug="/flights"
       pageImage = '/mexicos-vacation-flights.jpg'
     />

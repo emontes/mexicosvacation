@@ -9,7 +9,7 @@ const Map = () => {
         <MapWrapper>
           <Title title="Find your Hotel" subtitle="in the map" />
           <div className="map">
-            <InsertaScript liga={liga} />
+            <InsertaScript liga={liga} noAsync={true} />
             </div>
         </MapWrapper>
     )
@@ -30,3 +30,4 @@ background: var(--mainGrey);
     border: 1px solid var(--mainBlack);
 }
 `
+
