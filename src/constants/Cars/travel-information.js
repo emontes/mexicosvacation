@@ -1,11 +1,12 @@
 import React from "react"
 import { BsChat } from "react-icons/bs"
-import { GrCurrency, GrLanguage } from "react-icons/gr"
+import {  GrLanguage } from "react-icons/gr"
 import { AiOutlineCalendar } from "react-icons/ai"
 import { RiWalletLine } from "react-icons/ri"
 import { GiSteeringWheel } from "react-icons/gi"
-import { FaRoad, FaCocktail } from "react-icons/fa"
+import { FaRoad, FaCocktail, FaRegMoneyBillAlt } from "react-icons/fa"
 import { BsBuilding } from "react-icons/bs"
+import { TiWorldOutline } from 'react-icons/ti'
 
 export default [
   {
@@ -14,13 +15,13 @@ export default [
     text: "Spanish",
   },
   {
-    icon: <GrCurrency />,
+    icon: <FaRegMoneyBillAlt />,
     title: "Currency",
     text: "MXN",
   },
 
   {
-    icon: <GrLanguage />,
+    icon: <TiWorldOutline />,
     title: "Country code",
     text: "52",
   },
@@ -42,12 +43,14 @@ export default [
   {
     icon: <FaRoad />,
     title: "Speed limit out of town",
-    text: "50 - 75 mi/h",
+    text: "80 - 120 km/h",
+    secondary: "50 - 75 mi/h",
   },
   {
     icon: <BsBuilding />,
     title: "Speed limit within town",
-    text: "19 - 43 mi/h",
+    text: "30-70 km/h",
+    secondary: "19 - 43 mi/h",
   },
   {
     icon: <FaCocktail />,
