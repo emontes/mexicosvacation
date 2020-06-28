@@ -6,6 +6,7 @@ import InsertaScript from '../components/InsertaScript'
 import Banner from '../components/Banner'
 import Advantages from '../components/Hotels/Advantages'
 import Map from '../components/Hotels/Map'
+import OurHotelSearch from '../components/Hotels/OurHotelSearch'
 import SEO from '../components/SEO'
 
 // valores posibles de v: 1985 2040
@@ -33,7 +34,7 @@ export default ({data}) => (
           </StyledHero>
           <Advantages />
           <Map />
-          
+          <OurHotelSearch />
 
         </Layout>
     
