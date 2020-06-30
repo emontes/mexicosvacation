@@ -4,7 +4,6 @@ import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import AboutMexico from '../components/Home/AboutMexico'
-import Map from "../components/Hotels/Map"
 import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
@@ -29,7 +28,7 @@ export default ({ data }) => (
     <About />
     <Services />
     <AboutMexico />
-    <Map />
+    
   </Layout>
 )
 
