@@ -1,8 +1,8 @@
 import React from "react"
 import Title from "../Title"
 import styled from "styled-components"
-import { FaBalanceScale, FaSearch } from 'react-icons/fa'
-import { BsChatSquareQuote } from 'react-icons/bs'
+import { FaBalanceScale, FaSearch } from "react-icons/fa"
+import { BsChatSquareQuote } from "react-icons/bs"
 
 const OurHotelSearch = () => {
   return (
@@ -18,7 +18,9 @@ const OurHotelSearch = () => {
       <ol className="find-list">
         <li>
           <div className="find-item">
-            <div className="find-item__icon"><FaBalanceScale /></div>
+            <div className="find-item__icon">
+              <FaBalanceScale />
+            </div>
             <div className="find-item__text">
               The price for one and the same room can differ depending on the
               website you are using. Price comparison enables finding the best
@@ -29,7 +31,9 @@ const OurHotelSearch = () => {
         </li>
         <li>
           <div className="find-item">
-            <div className="find-item__icon"><FaSearch /></div>
+            <div className="find-item__icon">
+              <FaSearch />
+            </div>
             <div className="find-item__text">
               We search both the largest booking websites and small local
               systems. Oftentimes, small family hotels are not listed on large
@@ -39,7 +43,9 @@ const OurHotelSearch = () => {
         </li>
         <li>
           <div className="find-item">
-            <div className="find-item__icon"><BsChatSquareQuote /></div>
+            <div className="find-item__icon">
+              <BsChatSquareQuote />
+            </div>
             <div className="find-item__text">
               We collect feedback from multiple booking systems, making the
               Hotellook ratings more accurate.
@@ -69,19 +75,16 @@ var Wrapper = styled.section`
   .find-list {
     max-width: 90%;
     margin: 0 auto;
+    list-style: none;
     @media screen and (min-width: 576px) {
       max-width: 80%;
-      list-style: none;
     }
     li {
       margin-bottom: 18px;
-      
       @media screen and (min-width: 576px) {
-          margin-bottom: 36px;
+        margin-bottom: 36px;
       }
-      
     }
-    
   }
 
   .find-item {
@@ -89,20 +92,19 @@ var Wrapper = styled.section`
   }
 
   .find-item__icon {
-      display: none;
-      vertical-align: top;
-      color: var(--primaryColor);
+    vertical-align: top;
+    color: var(--primaryColor);
+    font-size: 1rem;
+    display: table-cell;
+    @media screen and (min-width: 576px) {
       font-size: 2rem;
-      @media screen and (min-width: 576px ) {
-          display: table-cell;
-      }
+    }
   }
 
   .find-item__text {
-      display: table-cell;
-      padding-left: 5px;
-      @media screen and (min-width: 576px) {
-          padding-left: 26px;
-      }
+    padding-left: 5px;
+    @media screen and (min-width: 576px) {
+      padding-left: 26px;
+    }
   }
 `

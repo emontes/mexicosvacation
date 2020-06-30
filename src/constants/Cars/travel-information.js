@@ -1,6 +1,5 @@
 import React from "react"
 import { BsChat } from "react-icons/bs"
-import {  GrLanguage } from "react-icons/gr"
 import { AiOutlineCalendar } from "react-icons/ai"
 import { RiWalletLine } from "react-icons/ri"
 import { GiSteeringWheel } from "react-icons/gi"
