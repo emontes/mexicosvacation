@@ -5,6 +5,7 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import AboutMexico from '../components/Home/AboutMexico'
 import Services from "../components/Home/Services"
+import Video from "../components/Video"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
@@ -28,7 +29,7 @@ export default ({ data }) => (
     <About />
     <Services />
     <AboutMexico />
-    
+    <Video src="https://www.youtube.com/embed/iQycYJdom7U"/>
   </Layout>
 )
 

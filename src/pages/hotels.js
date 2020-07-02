@@ -7,6 +7,7 @@ import Banner from "../components/Banner"
 import Advantages from "../components/Hotels/Advantages"
 import Map from "../components/Hotels/Map"
 import OurHotelSearch from "../components/Hotels/OurHotelSearch"
+import Video from '../components/Video'
 import SEO from "../components/SEO"
 
 // valores posibles de v: 1985 2040
@@ -35,6 +36,7 @@ export default ({ data }) => (
     <Advantages />
     <Map />
     <OurHotelSearch />
+    <Video src="https://www.youtube.com/embed/MtD5UmLo6NY" title="el patito"/>
   </Layout>
 )
 
